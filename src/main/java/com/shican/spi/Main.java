@@ -15,6 +15,7 @@ public class Main {
         bigCar.entrySet().forEach(stringClassEntry -> {
             //可以进行路由了，这个就没有什么问题
             System.out.println(stringClassEntry.getValue().getGenericInterfaces()[0]);
+
         });
     }
 }
