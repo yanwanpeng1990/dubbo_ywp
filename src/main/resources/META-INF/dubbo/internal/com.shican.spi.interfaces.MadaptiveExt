@@ -1,0 +1,3 @@
+dubbo=com.shican.spi.Impl.DubboAdaptiveExt2
+cloud=com.shican.spi.Impl.SpringCloudAdaptiveExt2
+thriftAdaptive=com.shican.spi.Impl.ThriftAdaptiveExt2
