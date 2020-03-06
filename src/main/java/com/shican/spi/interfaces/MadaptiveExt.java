@@ -6,6 +6,6 @@ import org.apache.dubbo.common.extension.SPI;
 
 @SPI("dubbo")
 public interface MadaptiveExt {
-    @Adaptive
+    @Adaptive({"fuck"})
     String echo(String msg,URL url);
 }

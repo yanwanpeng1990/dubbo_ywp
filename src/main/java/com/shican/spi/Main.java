@@ -15,6 +15,7 @@ public class Main {
         ExtensionLoader<MadaptiveExt> loader= ExtensionLoader.getExtensionLoader(MadaptiveExt
                 .class);
         MadaptiveExt adaptiveExtension = loader.getAdaptiveExtension();
-        System.out.println(adaptiveExtension.echo("d",URL.valueOf("test://localhost/test")));
+        URL url = URL.valueOf("t//t?fuck=cloud");
+        System.out.println(adaptiveExtension.echo("d",url));
     }
 }
