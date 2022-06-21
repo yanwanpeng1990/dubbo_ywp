@@ -24,7 +24,7 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
         <dubbo.version>2.7.5</dubbo.version>
-        <mysql.connector>8.0.19</mysql.connector>
+        <mysql.connector>8.0.28</mysql.connector>
         <mybatis.spring-boot>2.0.0</mybatis.spring-boot>
     </properties>
 
